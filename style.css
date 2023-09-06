@@ -1,0 +1,25 @@
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+header {
+background-color: #1f2937 ;
+height: 40%;
+}
+img{
+    h
+}
+
+.logo-link{
+display: flex;
+flex-wrap: wrap;
+color: white;
+}
+
+ul{
+    list-style-type: none;
+}
+a{
+    justify-content: space-around;
+}
