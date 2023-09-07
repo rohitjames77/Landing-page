@@ -3,23 +3,84 @@ body{
     height: 100vh;
     width: 100vw;
 }
+/* header logo nav- bar*/
 header {
 background-color: #1f2937 ;
 height: 40%;
 }
 img{
-    h
+    height:100px;
+    width: 380px;
 }
 
 .logo-link{
 display: flex;
-flex-wrap: wrap;
+justify-content: space-between;
+align-items: end;
 color: white;
+/*border: 5px solid white;*/
+height:13%;
+width: 80%;
+margin-left:10% ;
+font-family: 'Hero New', sans-serif;
 }
-
-ul{
+h1{
+    display: flex;
+    margin: 10px;
+    /*border: 2px solid white;*/
+    font-size: 20px;
+}
+ul{ display: flex;
     list-style-type: none;
+    gap: 20px;
+    font-size: 14px;
+    
 }
 a{
     justify-content: space-around;
+    font-family: 'Hero New', sans-serif;
+}
+
+/* header image and text part*/
+.text-image{
+    /*border: 5px solid red;*/
+    display: flex;
+    width: 80%;
+    height: 60%;
+    margin-left: 10%;
+}
+.h1-button{
+    /*border: 5px solid green;*/
+display: flex;
+flex-direction: column;
+font-family: 'Hero New', sans-serif;
+color: white;
+margin-top: -5px;
+width: 60%;
+
+}
+.h1-button h1{
+    font-size: 48px;
+    font-weight: 800;
+    color:#f9faf8;
+    margin-top: -6px;
+    margin-bottom:-5px ;
+}
+.h1-button h3{
+    flex-wrap: wrap;
+    font-size: 18px;
+    color: #e5e7eb;
+  margin-bottom: 20px;
+}
+ .h1-button button{
+    width:25% ;
+    height: 30px;
+    background-color:#3882f6;
+    border-radius: 8px 8px 8px 8px;
+    color: white;
+    margin-top: -15px;   
+}
+
+img{
+    height:100% ;
 }
