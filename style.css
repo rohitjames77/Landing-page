@@ -27,7 +27,6 @@ font-family: 'Hero New', sans-serif;
 h1{
     display: flex;
     margin: 10px;
-    /*border: 2px solid white;*/
     font-size: 20px;
 }
 ul{ display: flex;
@@ -43,59 +42,97 @@ a{
 
 /* header image and text part*/
 .text-image{
-    /*border: 5px solid red;*/
     display: flex;
     width: 80%;
-    height: 60%;
+    height: 50%;
     margin-left: 10%;
 }
 .h1-button{
-    /*border: 5px solid green;*/
+
 display: flex;
 flex-direction: column;
 font-family: 'Hero New', sans-serif;
 color: white;
-margin-top: -5px;
-width: 60%;
+margin: 2px;
 
 }
 .h1-button h1{
+    width: 80%;
     font-size: 48px;
     font-weight: 800;
     color:#f9faf8;
-    margin-top: -6px;
-    margin-bottom:-5px ;
+    margin-left: 5px;
+
+
 }
 .h1-button h3{
+    width:80%;
     flex-wrap: wrap;
-    font-size: 18px;
+    font-size: 16px;
     color: #e5e7eb;
-  margin-bottom: 20px;
+    margin-top: -2px;
+    margin-left: 5px;
+  margin-bottom: 10px;
 }
+
  .h1-button button{
     width:25% ;
     height: 30px;
     background-color:#3882f6;
-    border-radius: 5px;
-
+    border-radius: 7px;
     color:  white;
     font-size: 15px;
     padding:5px;
-    margin-top: -15px;   
+    margin-top: -2px;
+    margin-left: 10px;
+    
 }
 
 img{
-    height:100% ;
+    height:200px;
+    width: 360px;
+    margin-top: 15px;
     margin-left: 15px;
 }
 /* main content*/
 .main-content{
-    border: 5px solid red;
-    height: 30%;
+    height: 25%;
     
 }
 .main-content h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Hero New', sans-serif; 
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
 }
+.box-container{
+    display: flex;
+    justify-content: center;
+    height: 75%;
+    gap: 30px;
+}
+.box1, .box2, .box3, .box4 {
+border: 3px solid;
+    border-color: #3882f6;
+height: 90px;
+width: 90px;
+border-radius: 8px;
+font-size: 10px;
+}
+
+.box-container h3{
+    margin-top: 95px;
+    width: 90px;
+    padding-left: 9px;
+    color: #46556b;
+}
+/* Another-content*/
+.content-2{
+    height: 20%;
+    border: 4px solid red ;
+    background-color: #e5e7eb;
+}
+
