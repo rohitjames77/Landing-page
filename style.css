@@ -1,3 +1,8 @@
+* {
+    padding: 0;
+    margin: 0;  
+    box-sizing: border-box; 
+}
 
 body{
     height: 100vh;
@@ -134,7 +139,7 @@ font-size: 10px;
     font-family: 'Hero New', sans-serif;
     font-weight: 100;
     margin-top: 10px;
-    height: 17%;
+    height: 15%;
     background-color: #e5e7eb;
     display: flex;
     flex-wrap: wrap;
@@ -157,7 +162,7 @@ margin-left:-20px;
 width:250px;
 margin-left:66.5%;
 }
-footer{
+.content-3 {
  width: 60%;
  height: 17%;
  background-color: #3882f6;
@@ -170,45 +175,43 @@ flex-wrap: wrap;
  margin-top:30px;
  border-radius: 6px;
  color: white;
+ border: 3px solid white;
 }
 
-.foot{
+.foot-content div{
     display: flex;
     flex-direction: column;
     width: 80%;
     height: 70%;
     flex-wrap: wrap;
-margin-top: 30px;
-margin-left: 30px;   
-    
-}
-.signup{
-    height: 70%;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-}
- footer button{
-    width : 100px;
-    height: 30px;
-    background-color: #3882f6;
-    color: white;
-    border: 2px solid white;
-    border-radius: 6px;
-    align-self:flex-start;
-    margin-left: 20px;
 }
 
-footer h1{
+.content-3 h1{
     width: 50%;
     font-family: 'Hero New', sans-serif;    
 }
-footer h3{
+.content-3 h3{
     width: 50%;
     font-family: 'Hero New', sans-serif;
     font-weight: 100;
     font-size: 14px;
    margin-left: 10px;
 
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    font-family: 'Hero New', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    width: 100%;
+    height: 80px;
+    margin-top: 25px;
+    background-color: #1F2937;
+}
+
+.foot p{
+    margin-top: 20px;
 }
 
